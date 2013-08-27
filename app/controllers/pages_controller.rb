@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
   def home
-  end
+	end
+	def action
+		#content and rules
+	end
 end
