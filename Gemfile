@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+
 # gemfile as instructed by heroku cli to add
 ruby '2.0.0'
 
@@ -13,6 +14,8 @@ end
 group :development, :test do
 	gem 'sqlite3'
 end
+
+gem 'bootstrap-sass', '~> 2.3.2.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
